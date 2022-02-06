@@ -1,0 +1,90 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>חפש ת'מטמון</title>
+    <meta name="description" content="name of game" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="names" />
+
+    <!-- CSS -->
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <!--jQuery library-->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <!--הקוד שמפעיל את תפריט הניווט-->
+    <script src="jScripts/myScript.js"></script>
+
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <!--קישור לדף עצמו כדי להתחיל את המשחק מחדש בלחיצה על הלוגו-->
+            <a href="indextest.html">
+                <img id="logo" src="images/LOGO.png"/> <!--הלוגו של המשחק שלכם-->
+                <p>חפש ת'מטמון</p>
+            </a>
+            <!--תפריט הניווט בראש העמוד-->
+            <nav>
+                <ul>
+                    <li><a class="about">אודות</a></li>
+                    <li><a class="howToPlay">איך משחקים?</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="aboutDiv" class="popUp bounceInDown hide">
+            <section class="abouttext">
+                <pre>
+
+
+</pre>
+                <a class="closeAbout" style="cursor: pointer;float: left; margin-left: 140px;margin-top: -10px;font-weight: bold;font-size: 28px;">X</a>
+                <h1>חפש ת'מטמון</h1>
+                <p> <span>אפיון ופיתוח:</span> ליאל בך | נועה ברונפלד | עפרי פניאס</p>
+                <p> <span>אופיין ופותח בקורסים:</span> תכנות אנימציה ואינטראקציה 1 | סביבות לימוד אינטארקטיביות 1 </p>
+                <img src="images/HITlogo_1.png" />
+                <br />
+                <a href="https://www.hit.ac.il/telem/B.A" target="_blank">הפקולטה לטכנולוגיות למידה תשפ"ב</a> <br />
+                <p> <span>זכויות יוצרים:</span></p>
+                <a href="https://www.freepikcompany.com/legal?_gl=1*6d8xzp*fp_ga*NjgyNTg1NDU0LjE2MjQ1NTAzMzA.*fp_ga_QWX66025LC*MTY0Mzk3ODEzNi4zNS4xLjE2NDM5ODE1MzYuNjA.*_ga*MTMwNjA2MTcwMS4xNjAzMzYxMjI1*_ga_18B6QPTJPC*MTY0Mzk3ODE1MS4xMS4xLjE2NDM5ODE1MzYuNjA.#nav-freepik-license" target="_blank">flaction | </a> 
+                <a href="https://www.freepikcompany.com/legal?_gl=1*6d8xzp*fp_ga*NjgyNTg1NDU0LjE2MjQ1NTAzMzA.*fp_ga_QWX66025LC*MTY0Mzk3ODEzNi4zNS4xLjE2NDM5ODE1MzYuNjA.*_ga*MTMwNjA2MTcwMS4xNjAzMzYxMjI1*_ga_18B6QPTJPC*MTY0Mzk3ODE1MS4xMS4xLjE2NDM5ODE1MzYuNjA.#nav-freepik-license" target="_blank">freepic | </a> 
+                <a href="https://www.bensound.com/terms" target="_blank">bensound | </a> 
+                <a href="https://freesound.org/help/tos_web/" target="_blank">freesound</a> 
+
+                <pre>
+
+</pre>
+            </section>
+        </div>
+        <div id="howToPlayDiv" class="popUp bounceInDown hide">
+            <section class="howtoplaytext">
+                <br />
+                <a class="closeHowToPlay" style=" cursor: pointer; float: left; margin-left: 140px; margin-top: 56px; font-weight: bold; font-size: 28px;">X</a>
+<pre>
+
+
+</pre>                
+                <h1>איך משחקים</h1>
+                <p>בכל פעם תוצג שאלה אחת במרכז המסך ומתחתיה ארבע תשובות אפשריות,</p>
+                <p> עליכם מוטלת המשימה ללחוץ בעזרת העכבר על התשובה שנראית לכם הנכונה ביותר</p>
+                <p>צדקתם? מעולה! תחפשו את הרמז שיגלה לכם את החלק המוסתר במפה</p>
+                <p>טעיתם? לא נורא, בהמשך תפגשו את אותה השאלה שוב</p>
+                <p>בהצלחה!</p>
+                <img src="images/kidd.svg" width="83px" height="115px" />
+                <div class="lastp"></div>
+            </section>
+        </div>
+
+        <div id="gameArea" class="">
+            <!--src = הקישור של דף המשחק שלכם (לא קובץ האנימייט)-->
+            <iframe id="gameIframe" src="Treasure Hunt.html" frameBorder="0" allowfullscreen="">Browser not compatible.</iframe>
+        </div>
+    </div>
+</body>
+
+</html>
